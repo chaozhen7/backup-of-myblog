@@ -15,7 +15,8 @@ git remote add origin https://github.com/cighao/backup-of-myblog.git
 git push -u origin master
 
 
-git commit -u ""
+git add .
+git commit -m ""
 git push
 
 
