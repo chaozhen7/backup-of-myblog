@@ -1,5 +1,5 @@
 layout: post
-title: ubuntu下安装disksim及ssdmodel模块扩展
+title: disksim with ssdmodel 源码解析（一）：disksim及ssdmodel模块扩展的安装
 date: 2015-9-9 23:23:22
 tags: 
 	- SSD

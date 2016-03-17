@@ -1,8 +1,9 @@
 layout: post
-title: disksim 中输入参数的介绍
+title: disksim with ssdmodel 源码解析（二）：输入参数的介绍
 date: 2016-3-06 10:20:22
 tags: 
 	- Disksim
+	- SSD
 comments: true
 ---
 
