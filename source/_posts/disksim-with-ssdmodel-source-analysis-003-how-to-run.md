@@ -77,3 +77,5 @@ disksim 提供了一个接口（disksim_interface.c），可将 disksim 作为�
 
 Syssim_driver.c 运行方式: `syssim <parameters file> <output file> <max. block number>`
 例如： `syssim parv.seagate out 2676846`
+
+后面会重点介绍这个接口，想了解这块的内容可以关注后续的文章。

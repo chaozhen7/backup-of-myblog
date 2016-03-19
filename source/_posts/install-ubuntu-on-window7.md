@@ -23,7 +23,7 @@ comments: true
 - step2: 使用光标定位，找到 ```ro rootflag=sync```，将 ```ro``` 改成 ```rw``` 后，按 F10 键，即可按照修改后的参数引导进入系统
 
 其实前两步就可以解决问题了，但是不能彻底解决问题，每次开机都要这样很麻烦，参照下面步骤彻底解决问题。
-- step1: 进按照上面步骤入系统后，按 ```ctrl+shif+t``` 打开终端 
+- step1: 进按照上面步骤入系统后，按 ```ctrl+alt+t``` 打开终端 
 - step2: 输入 ```sudo gedit /etc/grub.d/10_lupin``` 后回车
 - step3: 输入用户密码后回车，即可调用文本编辑器打开启动项配置文件
 - step4: 按 ctrl+f 查找，找到 ```loop=${loop_file_relative}  ro ${args}``` 后，将 ```ro``` 改成```rw```，保存并退出
