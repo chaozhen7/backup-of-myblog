@@ -1,5 +1,5 @@
 layout: post
-title: matplotlib 画图（二）：线的连续与间断
+title: matplotlib 画图（三）：线的连续与间断
 date: 2016-3-19 10:20:22
 tags: 
    - Matplotlib

@@ -1,6 +1,6 @@
 layout: post
-title: disksim with ssdmodel 源码解析（八）：syssim_driver 系统级接口
-date: 2016-3-19 9:23:22
+title: disksim with ssdmodel 源码解析（八）：syssim_driver 系统级接口(一)
+date: 2016-3-19 11:23:22
 tags: 
 	- SSD
 	- Disksim
