@@ -4,7 +4,8 @@ date: 2016-3-23 10:23:22
 tags: 
 	- SSD
 	- Disksim
-comments: true  
+comments: true
+copyright: true
 ---
 
  SSD 中的逻辑地址到物理地址的映射方式有很多中，这里主要是介绍 ssdmodel 中的映射方式。

@@ -5,6 +5,7 @@ tags:
 	- Disksim 
 	- SSD
 comments: true
+copyright: true
 ---
 
 disksim 是由卡内基梅隆大学开发的一个磁盘模拟器，其目的是：理解存储系统的性能，对新的存储结构进行评估。 包含许多存储元件的模型：`device drivers`, `buses`, `controllers`, `adapters`, `disk drives`。

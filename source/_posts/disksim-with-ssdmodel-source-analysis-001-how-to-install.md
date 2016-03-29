@@ -5,7 +5,8 @@ tags:
 	- SSD
 	- Disksim
 	- Ubuntu
-comments: true  
+comments: true
+copyright: true
 ---
 ## 1. 安装须知
 - disksim 目前还没有64位的，所以必须要在32位操作系统下安装。如果想装在64位系统上请[戳这里](../../../../2016/03/23/disksim-with-ssdmodel-source-analysis-013-use-it-on-64bit/)

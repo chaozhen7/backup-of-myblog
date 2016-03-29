@@ -4,7 +4,8 @@ date: 2016-3-23 12:23:22
 tags: 
 	- SSD
 	- Disksim
-comments: true  
+comments: true
+copyright: true
 ---
 
 这里主要介绍的如何写入具体的一个页，而不是介绍写请求的整个流程(这个后面会介绍)。

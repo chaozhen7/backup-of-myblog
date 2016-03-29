@@ -5,6 +5,7 @@ tags:
 	- Disksim
 	- SSD
 comments: true
+copyright: true
 ---
 
 

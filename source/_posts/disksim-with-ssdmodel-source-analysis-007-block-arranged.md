@@ -4,7 +4,8 @@ date: 2016-3-18 21:23:22
 tags: 
 	- SSD
 	- Disksim
-comments: true  
+comments: true
+copyright: true
 ---
 
 

@@ -4,7 +4,8 @@ date: 2016-3-16 13:23:22
 tags: 
 	- SSD
 	- Disksim
-comments: true  
+comments: true
+copyright: true
 ---
 
 程序的主函数(main函数)在 `src/disksim_main.c` 文件里，代码很简洁，如下：

@@ -5,6 +5,7 @@ tags:
 	- Disksim
 	- SSD
 comments: true
+copyright: true
 ---
 
 disksim 的参数以文件的方式输入，可在valid文件夹中找到示例，如果安装了 ssdmodel 模块在 ssdmodel/valid 文件夹里也有对应的参数文件示例。根据 disksim 官方手册介绍，参数配置文件主要包括以下三个部分：

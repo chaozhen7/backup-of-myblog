@@ -49,6 +49,9 @@
 	<% if (!index && theme.donate){ %>
 		<%- partial('donate') %>
     <% } %>
+	<% if (!index && post.copyright==true){ %>
+		<%- partial('post/copyright') %>
+    <% } %>
   </div>
   <% if (!index){ %>
     <%- partial('post/nav') %>

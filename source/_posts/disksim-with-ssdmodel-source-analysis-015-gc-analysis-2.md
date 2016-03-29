@@ -4,7 +4,8 @@ date: 2016-3-27 20:23:22
 tags: 
 	- SSD
 	- Disksim
-comments: true  
+comments: true
+copyright: true
 ---
 
 今天主要介绍后台 GC 操作与普通 GC 操作的区别。

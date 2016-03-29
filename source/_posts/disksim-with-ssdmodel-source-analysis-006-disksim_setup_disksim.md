@@ -4,7 +4,8 @@ date: 2016-3-16 14:23:22
 tags: 
 	- SSD
 	- Disksim
-comments: true  
+comments: true
+copyright: true
 ---
 
 `disksim_setup_disksim()` 是在 main 函数中被调用的，主要用来设置 disksim 各种参数，为磁盘模拟做准备。函数的源码在 `disksim.c` 文件中。对于函数的功能主要有以下几个方面：
