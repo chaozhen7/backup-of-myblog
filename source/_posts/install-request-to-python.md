@@ -5,6 +5,7 @@ tags:
 	- Python
 	- 爬虫
 comments: true
+copyright: true
 ---
 
 在 windows 系统下，只需要输入命令 `pip install requests` ，即可安装。

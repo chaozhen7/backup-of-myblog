@@ -4,6 +4,7 @@ date: 2015-12-6 19:40:22
 tags: 
 	- Java
 comments: true
+copyright: true
 ---
 ## 1. 什么是动态加载类 ##
 

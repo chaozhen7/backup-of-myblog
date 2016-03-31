@@ -4,7 +4,7 @@ date: 2015-08-21 17:19:22
 tags: 
 	- Java Web
 	- Java
-comments: true  
+comments: true
 ---
 这里主要用到了三个文件，两个servlet类，一个JSP页面。两个servlet分别为<code>drawCode.java</code>和<code>ValidateServlet.java</code>，前者用来产生验证码，后者用来检验验证码是否正确，JSP页面为<code>login.jsp</code>，作为前台的交互。
 **drawCode 类**

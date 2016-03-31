@@ -7,6 +7,7 @@ tags:
 	- Struts2
 comments: ture
 toc: true
+copyright: true
 ---
 
 ## 1. 访问 Servlet ##

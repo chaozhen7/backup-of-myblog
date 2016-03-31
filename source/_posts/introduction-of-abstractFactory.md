@@ -5,6 +5,7 @@ tags:
 	- Java
 	- 设计模式
 comments: true
+copyright: true
 ---
 
 前面介绍了[工厂模式](../../../../2015/12/17/introduction-of-Factory/)，现在我们介绍下抽象工厂模式。

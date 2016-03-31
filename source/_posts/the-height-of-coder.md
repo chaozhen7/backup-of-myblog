@@ -6,6 +6,7 @@ tags:
 	- Python
 	- 爬虫
 comments: true
+copyright: true
 ---
 
 首先来说说写这篇文章的初衷吧，相信程序员们对[伯乐在线](http://www.jobbole.com/)这个网站一点都不陌生， 今天无意中发现了伯乐在线居然有一个 [面向对象](http://date.jobbole.com/) 栏目，其实说白了就是相亲吧。

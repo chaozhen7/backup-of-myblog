@@ -6,6 +6,7 @@ tags:
 	- Web 前端
 comments: true  
 toc: true
+copyright: true
 ---
 在jQuery中可以使用过滤器对选取的数据进行过滤，从而选择更明确的元素。jQuery过滤器的通常用法如下，
 ``` javascript

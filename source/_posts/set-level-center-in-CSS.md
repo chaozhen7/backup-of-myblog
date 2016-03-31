@@ -6,6 +6,7 @@ tags:
 	- Web 前端
 comments: true
 toc: true
+copyright: true
 ---
 ### **1. 行内元素水平居中** ###
 如果被设置元素为文本、图片等行内元素时，水平居中是通过给父元素设置 `text-align:center` 来实现的。如下代码：

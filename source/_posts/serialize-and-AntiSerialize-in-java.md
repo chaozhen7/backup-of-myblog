@@ -5,6 +5,7 @@ tags:
 	- Java
 comments: true
 toc: true
+copyright: true
 ---
 
 Java序列化是指把Java对象转换为字节序列的过程；而Java反序列化是指把字节序列恢复为Java对象的过程。

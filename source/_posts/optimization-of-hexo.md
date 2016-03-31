@@ -5,6 +5,7 @@ tags:
 	- Hexo
 comments: true
 toc: true
+copyright: true
 ---
 
 **写在前面**

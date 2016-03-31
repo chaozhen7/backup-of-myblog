@@ -6,6 +6,7 @@ tags:
 	- Java
 comments: true  
 toc: true
+copyright: true
 ---
 ## 1. 什么是过滤器
 一个服务器端的组件，可以截取用户端的请求用与响应信息，并对这些信息过滤。

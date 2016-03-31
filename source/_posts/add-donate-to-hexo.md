@@ -3,7 +3,8 @@ title: Hexo 博客添加打赏功能
 date: 2016-2-23 19:28:22
 tags: 
 	- Hexo
-comments: ture  
+comments: ture
+copyright: true
 ---
 
 基本思路是将微信和支付宝的收款二维码放到每篇文章的最后，打赏的时候扫下二维码就可以了。

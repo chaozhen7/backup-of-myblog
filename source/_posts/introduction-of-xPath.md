@@ -7,6 +7,7 @@ tags:
 category: Python
 comments: true
 toc: true
+copyright: true
 ---
 
 XPath即为XML路径语言，它是一种用来确定XML（标准通用标记语言的子集）文档中某部分位置的语言。XPath基于XML的树状结构，提供在数据结构树中找寻节点的能力。 xPath 同样也支持HTML.

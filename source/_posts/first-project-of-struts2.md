@@ -7,6 +7,7 @@ tags:
 	- Struts2
 
 comments: true
+copyright: true
 ---
 
 

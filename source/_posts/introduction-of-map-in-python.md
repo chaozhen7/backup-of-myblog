@@ -4,6 +4,7 @@ date: 2016-3-1 12:20:22
 tags: 
 	- Python
 comments: true
+copyright: true
 ---
 
 关于 python 并行化编程有一个特别简洁的做法就是使用 map 函数。

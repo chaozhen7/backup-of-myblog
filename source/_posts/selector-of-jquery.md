@@ -4,7 +4,8 @@ date: 2015-11-03 18:36:22
 tags: 
 	- jQuery
 	- Web 前端
-comments: true  
+comments: true
+copyright: true
 ---
 ## 1. 基础选择器
 ### ID选择器

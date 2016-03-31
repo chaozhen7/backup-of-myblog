@@ -5,6 +5,7 @@ tags:
 	- C语言
 comments: true
 toc: true
+copyright: true
 ---
 ## 1. 基本概念
 

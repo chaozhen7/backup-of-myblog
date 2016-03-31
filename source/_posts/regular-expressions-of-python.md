@@ -7,6 +7,7 @@ tags:
 	- 爬虫
 comments: true
 toc: true
+copyright: true
 ---
 ## 1. 常用符号  
 . ：匹配任意字符，换行符 \n 除外  

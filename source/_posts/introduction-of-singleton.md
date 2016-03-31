@@ -6,6 +6,7 @@ tags:
 	- 设计模式
 comments: true
 toc: true
+copyright: true
 ---
 ## 1. 了解设计模式 ##
 设计模式： 是一套反复使用，多数人知晓得的，经过分类编目的，代码设计经验的总结。

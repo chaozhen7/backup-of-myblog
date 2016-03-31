@@ -5,6 +5,7 @@ tags:
 	- Javascript
 	- Web 前端
 comments: true
+copyright: true
 ---
 ## 1. 游戏规则
 - 用键盘上下左右键控制数字走向

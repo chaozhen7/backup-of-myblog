@@ -4,6 +4,7 @@ date: 2015-12-06 21:20:22
 tags: 
 	- Java
 comments: true
+copyright: true
 ---
 
 关于 Java 反射机制可以[点击这里](../../../../2015/12/06/reflection-in-java/) 。

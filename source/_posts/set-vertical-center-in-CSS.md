@@ -5,6 +5,7 @@ tags:
 	- CSS
 	- Web 前端
 comments: true
+copyright: true
 ---
 ### **1. 父元素高度确定的单行文本** ###
 父元素高度确定的单行文本的竖直居中的方法是通过设置父元素的 height 和 line-height 高度一致来实现的。如下代码：

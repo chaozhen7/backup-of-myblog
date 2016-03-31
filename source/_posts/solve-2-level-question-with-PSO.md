@@ -7,6 +7,7 @@ tags:
 	- 算法
 comments: true
 toc: true
+copyright: true
 ---
 ## 1. 问题示例 
 $ \min \limits_{x\ge0}\{F(x,y)=-x_1^2-3\*x_2-4\*y_1+y_2^2} $  

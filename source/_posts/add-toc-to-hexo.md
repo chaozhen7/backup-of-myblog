@@ -4,6 +4,7 @@ date: 2015-12-13 20:20:22
 tags: 
    - Hexo
 comments: ture
+copyright: true
 ---
 
 目录的样式可以参见下面的图片。动态效果可以打开本博客下的带有目录的文章查看。

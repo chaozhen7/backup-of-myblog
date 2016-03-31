@@ -4,6 +4,7 @@ date: 2016-1-10 9:20:22
 tags: 
 	- Nodejs
 comments: true
+copyright: true
 ---
 **模块的分类**
 核心模块： 如 http

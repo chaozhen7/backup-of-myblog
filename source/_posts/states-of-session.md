@@ -4,6 +4,7 @@ date: 2015-12-05 17:20:22
 tags: 
 	- Java Web
 comments: true
+copyright: true
 ---
 对于 Session 中的对象，主要有两组状态：(1)绑定和解除绑定，(2)钝化和活化。
 

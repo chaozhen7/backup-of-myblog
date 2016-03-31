@@ -7,6 +7,7 @@ tags:
 	- Struts2
 comments: true
 toc: true
+copyright: true
 ---
 ## 1. Struts2 框架执行流程 ##
 下面这个是 Struts2 框架的一个流程图

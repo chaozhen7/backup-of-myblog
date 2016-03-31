@@ -6,6 +6,7 @@ tags:
 	- Java
 comments: ture
 toc: true
+copyright: true
 ---
  
 ## 1. 简介
