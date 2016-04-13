@@ -3,7 +3,7 @@ title: Hexo yilia主题添加网站访客人数统计
 date: 2015-11-30 15:28:22
 tags: 
 	- Hexo
-comments: ture
+comments: true
 copyright: true 
 ---
 这里主要使用的是[amazingcounters网站](http://www.amazingcounters.com/)提供的统计功能。具体效果如下图：

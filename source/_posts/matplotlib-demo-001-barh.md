@@ -4,7 +4,7 @@ date: 2016-3-16 11:20:22
 tags: 
    - Matplotlib
    - 画图
-comments: ture
+comments: true
 ---
 
 ![](/img/articles/matplotlib/barh.jpg)

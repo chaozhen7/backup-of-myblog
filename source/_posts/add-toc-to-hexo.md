@@ -3,7 +3,7 @@ title: 在 Hexo 中给文章添加目录
 date: 2015-12-13 20:20:22
 tags: 
    - Hexo
-comments: ture
+comments: true
 copyright: true
 ---
 

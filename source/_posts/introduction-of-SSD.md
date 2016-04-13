@@ -3,7 +3,7 @@ title: 固态硬盘(SSD)原理及相关介绍
 date: 2015-8-31 21:35:22
 tags: 
 	- SSD
-comments: ture
+comments: true
 toc: true
 ---
 ## 1.什么是SSD

@@ -4,7 +4,7 @@ date: 2016-3-17 19:20:22
 tags: 
    - Matplotlib
    - 画图
-comments: ture
+comments: true
 ---
 
 ![](/img/articles/matplotlib/fill.jpg)

@@ -4,7 +4,7 @@ date: 2015-11-30 22:19:22
 tags: 
 	- 粒子群算法
 	- 算法
-comments: ture  
+comments: true  
 toc: true
 copyright: true
 ---

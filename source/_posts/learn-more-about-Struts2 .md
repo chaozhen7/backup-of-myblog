@@ -5,7 +5,7 @@ tags:
 	- Java
 	- Java Web
 	- Struts2
-comments: ture
+comments: true
 toc: true
 copyright: true
 ---

@@ -3,7 +3,7 @@ title: Hexo 博客添加打赏功能
 date: 2016-2-23 19:28:22
 tags: 
 	- Hexo
-comments: ture
+comments: true
 copyright: true
 ---
 

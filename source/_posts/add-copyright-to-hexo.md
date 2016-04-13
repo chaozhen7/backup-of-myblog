@@ -3,7 +3,7 @@ title: 在 Hexo 中给文章添加版权信息
 date: 2016-3-1 20:20:22
 tags: 
    - Hexo
-comments: ture
+comments: true
 copyright: true
 ---
 

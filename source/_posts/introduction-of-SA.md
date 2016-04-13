@@ -4,7 +4,7 @@ date: 2015-12-3 16:35:22
 tags: 
 	- 模拟退火算法
 	- 算法
-comments: ture
+comments: true
 toc: true
 copyright: true
 ---
