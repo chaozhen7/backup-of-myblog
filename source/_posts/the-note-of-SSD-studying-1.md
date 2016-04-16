@@ -23,6 +23,8 @@ copyright: true
 
 <!--more-->
 
+首先介绍下普通SSD的层次结构，为了增加存储密度，通常会把几个 Flash chip 集成到一个模块上(称为 flash package)，一个 flash package 上的chip共享数据线，控制信号线是分离的。一个 chip 包含很多 die，一个 die 包含很多 plane ，一个 plane 又包含很多 block，一个 block 包含很多 page。
+
 不同厂家的SSD的性能差别较大，所以以 Samsung’s K9XXG08UXM series NAND-flash 为例来介绍。
 
 ### **Samsung’s K9XXG08UXM series NAND-flash 介绍** ###
