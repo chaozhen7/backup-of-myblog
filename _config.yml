@@ -76,5 +76,7 @@ baidusitemap:
 deploy:
   - type: git
     repo: git@github.com:cighao/cighao.github.io
-  - type: git 
-    repo: git@coding.net:cighao/cighao.git
+  - type: git
+    repo: git@gitlab.com:chenhao/chenhao.git
+  #- type: git
+    #repo: git@git.coding.net:cighao/cighao.git,coding-pages
