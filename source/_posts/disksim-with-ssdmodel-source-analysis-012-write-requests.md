@@ -83,7 +83,7 @@ typedef struct _block_metadata {
 
 写操作调用的是 `ssd_timing.c` 中的 `_ssd_write_page_osr(ssd_t *s, ssd_element_metadata *metadata, int lpn)` 函数，传入的参数分别是：写入的 ssd 的指针 `s`，写入的 element 的元数据指针 `metadata`，写入的逻辑页号 `lpn`。 返回的是该写操作所耗的时间。
 
-step1: 获取当前 active page 的信息
+**step1: 获取当前 active page 的信息**
 ```C
 unsigned int active_page = metadata->active_page;   //下一个将要写入的页
 unsigned int active_block = SSD_PAGE_TO_BLOCK(active_page, s);  // active page 所在的block
@@ -91,7 +91,7 @@ unsigned int pagepos_in_block = active_page % s->params.pages_per_block;   // ac
 unsigned int active_plane = metadata->block_usage[active_block].plane_num;  // active page 所在plane
 ```
 
-step2: 获取 pln 所对应的物理页的信息
+**step2: 获取 lpn 所对应的物理页的信息**
 ```C
 unsigned int prev_page = metadata->lba_table[lpn];    // 该逻辑页之前所对应的物理页
 unsigned int prev_block = SSD_PAGE_TO_BLOCK(prev_page, s);  // 逻辑页所在的物理块
@@ -99,32 +99,32 @@ unsigned int pagepos_in_prev_block = prev_page % s->params.pages_per_block;  //�
 unsigned int prev_plane = metadata->block_usage[prev_block].plane_num;  // 逻辑页所在的plane
 ```
 
-step3: 更新旧的物理页的状态
+**step3: 更新旧的物理页的状态**
 ```C
 metadata->block_usage[prev_block].page[pagepos_in_prev_block] = -1;  //将之前的页标记为无效
 metadata->block_usage[prev_block].num_valid --;   // 将之前块的有效页数减1
 metadata->plane_meta[prev_plane].valid_pages --;  // 将之前plane的有效页数减1
 ```
 
-step4: 更新映射表
+**step4: 更新映射表**
 ```C
  metadata->lba_table[lpn] = active_page;
 ```
 
-step5: 更新的物理页信息
+**step5: 更新的物理页信息**
 ```C
 metadata->block_usage[active_block].page[pagepos_in_block] = lpn;  // 标记block中第对应的页的物理号位lpn
 metadata->block_usage[active_block].num_valid ++;    //对应块的有效页数加1
 metadata->plane_meta[active_plane].valid_pages ++;  //对应plane中的有效页数加1
 ```
 
-step7： 更新 active page
+**step7： 更新 active page**
 ```C
 metadata->active_page = active_page + 1;
 metadata->plane_meta[active_plane].active_page = metadata->active_page;
 ```
 
-step6: 判断是否已经写入到最后一个页
+**step6: 判断是否已经写入到最后一个页**
 ```C
 	// if this is the last data page on the block, let us write the summary page also
 	if (ssd_last_page_in_block(metadata->active_page, s)) {

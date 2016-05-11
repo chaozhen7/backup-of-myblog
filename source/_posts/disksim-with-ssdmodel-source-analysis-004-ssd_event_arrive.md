@@ -97,14 +97,15 @@ void ssd_event_arrive (ioreq_event *curr)
       		case IO_INTERRUPT_COMPLETE:
          		ssd_interrupt_complete(curr);
         	 	break;
-
+		
+		//只有在初始化的时候才会被调用
 		case IO_QLEN_MAXCHECK:
-         
          		curr->tempint1 = -1;
          		curr->tempint2 = ssd_get_maxoutstanding(curr->devno);
          		curr->bcount = 0;
          		break;
 
+		//垃圾回收事件
       		case SSD_CLEAN_GANG:
           		ssd_clean_gang_complete(curr);
           		break;

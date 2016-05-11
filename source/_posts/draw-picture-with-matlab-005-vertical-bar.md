@@ -165,4 +165,21 @@ set(gca,'xticklabel',{'As','Ni','Cd','Pb','Cr','Zn','Cu','Hg'});
 ![](/img/articles/matlab/matlab-pic-005-bar-006.jpg)
 
 
+### 10. modify baseline of bar  ###
+```matlab
+% 正常的柱状图
+Y = [5,4,3,5;3,6,3,1;4,3,5,4];
+figure
+hBars = bar(Y);
+
+% 修改baseline,会变成上下两部分
+set(hBars(1),'BaseValue',2)
+
+% 修改baseline线条的属性
+hBaseline = get(hBars(1),'Baseline');
+set(hBaseline,'LineStyle',':','Color','red','LineWidth',2);
+```
+
+![](/img/articles/matlab/matlab-pic-005-bar-007.jpg)
+
 
