@@ -3,8 +3,9 @@ title: Memcached 学习（三）：查找命令介绍
 date: 2016-5-11 15:55:22
 tags:
 	- Memcached
+	- 数据库
 comments: true
-copyright: true
+toc: true
 ---
 
 ## 1. get 命令

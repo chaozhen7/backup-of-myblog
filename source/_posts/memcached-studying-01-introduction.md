@@ -3,8 +3,8 @@ title: Memcached 学习（一）：介绍和安装
 date: 2016-5-11 12:55:22
 tags:
 	- Memcached
+	- 数据库
 comments: true
-copyright: true
 toc: true
 ---
 
@@ -15,6 +15,8 @@ Memcached 是一个高性能的分布式内存对象缓存系统，用于动态 
 <!--more-->
 
 本质上，它是一个简洁的 key-value 存储系统。
+
+<img width="400px" src="http://i2.buimg.com/987d9fb3f2156885.png">
 
 ## 2. Memcached 安装
 

@@ -3,8 +3,8 @@ title: Memcached 学习（二）：存储命令介绍
 date: 2016-5-11 13:55:22
 tags:
 	- Memcached
+	- 数据库
 comments: true
-copyright: true
 toc: true
 ---
 
